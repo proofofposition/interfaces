@@ -1,6 +1,6 @@
 {
   "name": "popp-interfaces",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Collection of POPP interfaces",
   "main": "index.js",
   "scripts": {
