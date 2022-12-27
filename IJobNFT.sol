@@ -9,4 +9,5 @@ interface IJobNFT is IERC721{
     function mintFor(address _employee, uint32 _employerId) external;
     function getEmployerIdFromJobId(uint256 _jobId) external view returns (uint32);
     function getJobIdFromEmployeeAndEmployer(address _employee, uint32 _employerId) external view returns (uint256);
+    function isEmployedBy(address _employee, uint32 _employerId) external view returns (bool);
 }
