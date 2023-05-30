@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/interfaces/IERC721.sol";
 
-interface IJobNFT is IERC721{
+interface IEmployeeNFT is IERC721{
     function canMintJob(string memory _uri, address _minter, uint32 _employerTokenId) external view returns (bool);
     function approveMint(address _employee, string memory _uri) external;
     function mintFor(address _employee, uint32 _employerId) external;
