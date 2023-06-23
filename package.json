@@ -1,6 +1,6 @@
 {
   "name": "popp-interfaces",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "Collection of interfaces for the Proof of Position Protocol",
   "main": "index.js",
   "scripts": {
